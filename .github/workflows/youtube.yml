@@ -20,7 +20,7 @@ jobs:
         with:
           repository: wonytest0-dev/youtube-music-private
           path: youtube-scraper-private
-          token: ${{ secrets.PRIVATE_REPO_PAT }}
+          token: ${{ secrets.PAT_YOUTUBE_MUSIC }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
