@@ -1,37 +1,53 @@
-name: YouTube Chart Update
+name: Update YouTube Chart
 
 on:
   workflow_dispatch:
-
-permissions:
-  contents: write
+  # Kamu bisa tambahkan schedule di sini jika perlu
 
 jobs:
-  update-chart:
+  update-youtube-chart:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout public repo
         uses: actions/checkout@v4
+        # Ambil data/ yang ada di repo publik
 
-      - name: Setup Node.js
+      - name: Checkout private repo
+        uses: actions/checkout@v4
+        with:
+          repository: wonytest0-dev/youtube-music-private
+          path: youtube-scraper-private
+          token: ${{ secrets.PRIVATE_REPO_PAT }}
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
 
       - name: Install dependencies
+        working-directory: youtube-scraper-private
         run: npm install
 
-      - name: Run script
+      - name: Move data to private repo
+        run: |
+          mkdir -p youtube-scraper-private/data
+          cp data/*.json youtube-scraper-private/data/ || true
+
+      - name: Run YouTube scraper
+        working-directory: youtube-scraper-private
         run: node youtube.js
 
-      - name: Commit updated files
+      - name: Move generated files back
+        run: |
+          cp -f youtube-scraper-private/data/*.json data/
+
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data/
-
+          git add data/*.json
           git diff --staged --quiet || git commit -m "Update YouTube chart"
-
           git push
