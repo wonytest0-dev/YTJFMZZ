@@ -1,10 +1,10 @@
 {
-  "updatedAt": "18/10/2026, 15:05:18 KST",
+  "updatedAt": "19/10/2026, 15:05:18 KST",
   "latestDates": {
-    "weekly": "2026-10-08",
-    "daily": "2026-10-16"
+    "weekly": "2026-10-15",
+    "daily": "2026-10-17"
   },
-  "totalEntries": 1,
+  "totalEntries": 2,
   "entries": [
     {
       "country": "South Korea",
@@ -13,10 +13,24 @@
       "frequency": "chart_period_type_daily",
       "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
       "artist": "Kang Jimin",
-      "rank": 24,
-      "previousRank": 19,
-      "views": 75681,
-      "periodsOnChart": 4,
+      "rank": 22,
+      "previousRank": 24,
+      "views": 77275,
+      "periodsOnChart": 5,
+      "videoId": "aEjOGKDs8xg",
+      "thumbnail": "https://i.ytimg.com/vi/aEjOGKDs8xg/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3m3ONJV8gjp5QBHN1ui7ZfB5xBqxg"
+    },
+    {
+      "country": "South Korea",
+      "countryCode": "KR",
+      "chartType": "video",
+      "frequency": "chart_period_type_weekly",
+      "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
+      "artist": "Kang Jimin",
+      "rank": 30,
+      "previousRank": null,
+      "views": 247058,
+      "periodsOnChart": 1,
       "videoId": "aEjOGKDs8xg",
       "thumbnail": "https://i.ytimg.com/vi/aEjOGKDs8xg/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3m3ONJV8gjp5QBHN1ui7ZfB5xBqxg"
     }
@@ -28,11 +42,25 @@
       "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
       "artist": "Kang Jimin",
       "totalEntries": 1,
-      "bestRank": 24,
+      "bestRank": 22,
       "countries": [
         {
           "country": "South Korea",
-          "rank": 24
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "chartType": "video",
+      "frequency": "chart_period_type_weekly",
+      "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
+      "artist": "Kang Jimin",
+      "totalEntries": 1,
+      "bestRank": 30,
+      "countries": [
+        {
+          "country": "South Korea",
+          "rank": 30
         }
       ]
     }
