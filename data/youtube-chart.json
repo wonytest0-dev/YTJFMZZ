@@ -1,25 +1,11 @@
 {
-  "updatedAt": "19/10/2026, 15:05:18 KST",
+  "updatedAt": "20/10/2026, 15:06:05 KST",
   "latestDates": {
     "weekly": "2026-10-15",
-    "daily": "2026-10-17"
+    "daily": "2026-10-18"
   },
-  "totalEntries": 2,
+  "totalEntries": 3,
   "entries": [
-    {
-      "country": "South Korea",
-      "countryCode": "KR",
-      "chartType": "video",
-      "frequency": "chart_period_type_daily",
-      "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
-      "artist": "Kang Jimin",
-      "rank": 22,
-      "previousRank": 24,
-      "views": 77275,
-      "periodsOnChart": 5,
-      "videoId": "aEjOGKDs8xg",
-      "thumbnail": "https://i.ytimg.com/vi/aEjOGKDs8xg/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3m3ONJV8gjp5QBHN1ui7ZfB5xBqxg"
-    },
     {
       "country": "South Korea",
       "countryCode": "KR",
@@ -33,23 +19,37 @@
       "periodsOnChart": 1,
       "videoId": "aEjOGKDs8xg",
       "thumbnail": "https://i.ytimg.com/vi/aEjOGKDs8xg/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3m3ONJV8gjp5QBHN1ui7ZfB5xBqxg"
-    }
-  ],
-  "summary": [
+    },
     {
+      "country": "South Korea",
+      "countryCode": "KR",
       "chartType": "video",
       "frequency": "chart_period_type_daily",
       "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
       "artist": "Kang Jimin",
-      "totalEntries": 1,
-      "bestRank": 22,
-      "countries": [
-        {
-          "country": "South Korea",
-          "rank": 22
-        }
-      ]
+      "rank": 39,
+      "previousRank": 22,
+      "views": 47230,
+      "periodsOnChart": 6,
+      "videoId": "aEjOGKDs8xg",
+      "thumbnail": "https://i.ytimg.com/vi/aEjOGKDs8xg/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3m3ONJV8gjp5QBHN1ui7ZfB5xBqxg"
     },
+    {
+      "country": "South Korea",
+      "countryCode": "KR",
+      "chartType": "video",
+      "frequency": "chart_period_type_daily",
+      "title": "쓸쓸히 우리곁을 떠난 천재뮤지션의 슬픈 노래, 통기타하나로 라이브! 여인 (솔개트리오) 강지민, Kang jimin",
+      "artist": "Kang Jimin",
+      "rank": 85,
+      "previousRank": null,
+      "views": 23406,
+      "periodsOnChart": 1,
+      "videoId": "kDciuawmtuM",
+      "thumbnail": "https://i.ytimg.com/vi/kDciuawmtuM/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3lD6hrZpoO4lAujQWl7_F3XOW4_NA"
+    }
+  ],
+  "summary": [
     {
       "chartType": "video",
       "frequency": "chart_period_type_weekly",
@@ -61,6 +61,34 @@
         {
           "country": "South Korea",
           "rank": 30
+        }
+      ]
+    },
+    {
+      "chartType": "video",
+      "frequency": "chart_period_type_daily",
+      "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
+      "artist": "Kang Jimin",
+      "totalEntries": 1,
+      "bestRank": 39,
+      "countries": [
+        {
+          "country": "South Korea",
+          "rank": 39
+        }
+      ]
+    },
+    {
+      "chartType": "video",
+      "frequency": "chart_period_type_daily",
+      "title": "쓸쓸히 우리곁을 떠난 천재뮤지션의 슬픈 노래, 통기타하나로 라이브! 여인 (솔개트리오) 강지민, Kang jimin",
+      "artist": "Kang Jimin",
+      "totalEntries": 1,
+      "bestRank": 85,
+      "countries": [
+        {
+          "country": "South Korea",
+          "rank": 85
         }
       ]
     }
