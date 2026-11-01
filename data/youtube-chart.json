@@ -1,40 +1,10 @@
 {
-  "updatedAt": "31/10/2026, 01:05:25 KST",
+  "updatedAt": "01/11/2026, 15:05:19 KST",
   "latestDates": {
-    "weekly": "2026-10-22",
-    "daily": "2026-10-29"
+    "weekly": "2026-10-29",
+    "daily": "2026-10-30"
   },
-  "totalEntries": 1,
-  "entries": [
-    {
-      "country": "South Korea",
-      "countryCode": "KR",
-      "chartType": "video",
-      "frequency": "chart_period_type_weekly",
-      "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
-      "artist": "강지민 통기타가수 Kang Jimin Live concert",
-      "rank": 46,
-      "previousRank": 30,
-      "views": 192830,
-      "periodsOnChart": 2,
-      "videoId": "aEjOGKDs8xg",
-      "thumbnail": "https://i.ytimg.com/vi/aEjOGKDs8xg/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg&rs=AMzJL3m3ONJV8gjp5QBHN1ui7ZfB5xBqxg"
-    }
-  ],
-  "summary": [
-    {
-      "chartType": "video",
-      "frequency": "chart_period_type_weekly",
-      "title": "이렇게 가슴아프게 부른다고? 통기타하나로 라이브! 어디쯤 가고 있을까 (전영) 강지민, Kang jimin",
-      "artist": "강지민 통기타가수 Kang Jimin Live concert",
-      "totalEntries": 1,
-      "bestRank": 46,
-      "countries": [
-        {
-          "country": "South Korea",
-          "rank": 46
-        }
-      ]
-    }
-  ]
+  "totalEntries": 0,
+  "entries": [],
+  "summary": []
 }
